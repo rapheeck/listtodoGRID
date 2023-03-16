@@ -35,7 +35,7 @@
                 toggleTaskDone(taskIndex);
             });
         });
-    };F
+    };
 
     const render = () => {
         let htmlString = "";
@@ -43,8 +43,11 @@
         for (const task of tasks) {
             htmlString += `
             <li class="tasks__item js-tasks">
-                <button class="js-toggleDone tasks__button tasks__button--toggleDone">${task.done ? "✔️" : ""}</button>
-                    <span class="tasks_content${task.done ? " tasks__content--done" : ""}">${task.content} </span>
+                <button class="js-toggleDone tasks__button tasks__button--toggleDone">
+                ${task.done ? "✔️" : ""}
+                </button>
+                    <span class="tasks_content${task.done ? " tasks__content--done" : ""}">
+                ${task.content} </span>
                 <button class="js-remove tasks_button tasks__button--remove">❌</button>
             </li>
         `;
