@@ -27,6 +27,7 @@
             });
         });
     };
+
     const bindToggleDoneEvents = () => {
         const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
 
@@ -64,7 +65,7 @@
         const newTaskContent = newTaskElement.value.trim();
         if (newTaskContent !== "") {
             addNewTask(newTaskContent);
-            newTaskContent.value = "";
+            newTaskElement.value = "";
         }
         newTaskElement.focus();
     };
