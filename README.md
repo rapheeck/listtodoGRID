@@ -2,7 +2,7 @@
 
 ## Demo
 
-[https://rapheeck.github.io/listtodo/]
+https://rapheeck.github.io/listtodoGRID/
 
 ## Description
 
