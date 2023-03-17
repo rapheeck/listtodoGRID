@@ -17,4 +17,4 @@ The green button deletes the task, the red button deletes it.
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/rapheeck/listtodo/main/images/Zrzut%20ekranu%20(14).png)
+![screenshot](https://raw.githubusercontent.com/rapheeck/listtodoGRID/main/images/Zrzut%20ekranu%20(14).png)
